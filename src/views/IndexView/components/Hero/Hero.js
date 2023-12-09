@@ -142,7 +142,7 @@ const Hero = () => {
                 color="primary"
                 size="large"
                 fullWidth={isMd ? false : true}
-                href={'/home'}
+                href={'https://surfapp.vercel.app/dashboards/analytics/'}
               >
                 View pages
               </Button>
