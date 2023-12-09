@@ -12,7 +12,7 @@ const images = [
     group: [
       {
         cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img1.png',
+          '/assets/landing-main.jpg',
         coverDark:
           'https://assets.maccarianagency.com/screenshots/the-front/img1--dark.png',
       },
@@ -104,9 +104,9 @@ const Hero = () => {
                 fontWeight: 700,
               }}
             >
-              Turn your ideas
+              Register your best
               <br />
-              into{' '}
+              moments{' '}
               <Typography
                 color={'primary'}
                 component={'span'}
@@ -118,7 +118,7 @@ const Hero = () => {
                   )} 0%)`,
                 }}
               >
-                success.
+                surfing.
               </Typography>
             </Typography>
             <Typography
@@ -127,8 +127,8 @@ const Hero = () => {
               color="text.secondary"
               sx={{ fontWeight: 400 }}
             >
-              theFront will make your product look modern and professional while
-              saving you precious time.
+              Surfer Pic connects the best photographers in San Diego
+              with the best surfers.
             </Typography>
             <Box
               display="flex"
@@ -144,7 +144,7 @@ const Hero = () => {
                 fullWidth={isMd ? false : true}
                 href={'https://surfapp.vercel.app/dashboards/analytics/'}
               >
-                View pages
+                Register Now
               </Button>
               <Box
                 marginTop={{ xs: 2, sm: 0 }}
@@ -160,7 +160,7 @@ const Hero = () => {
                   size="large"
                   fullWidth={isMd ? false : true}
                 >
-                  Documentation
+                  View Gallery
                 </Button>
               </Box>
             </Box>
