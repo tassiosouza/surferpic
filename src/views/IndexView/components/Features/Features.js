@@ -51,7 +51,7 @@ const Features = () => {
         <Grid item xs={12} md={6}>
           <Box marginBottom={4}>
             <Typography sx={{ fontWeight: 700 }} variant={'h4'} gutterBottom>
-              The powerful and flexible theme for all kinds of businesses
+              The best plataforms to connect surfs and artists
             </Typography>
             <Typography variant={'h6'} component={'p'} color={'text.secondary'}>
               Whether you're creating a subscription service, an on-demand

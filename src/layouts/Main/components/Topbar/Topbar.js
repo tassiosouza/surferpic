@@ -99,10 +99,10 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             color="primary"
             component="a"
             target="blank"
-            href="https://mui.com/store/items/the-front-landing-page/"
+            href="https://surfapp.vercel.app/dashboards/home/"
             size="large"
           >
-            Buy now
+            Get Started
           </Button>
         </Box>
       </Box>

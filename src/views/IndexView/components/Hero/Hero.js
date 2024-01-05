@@ -142,9 +142,9 @@ const Hero = () => {
                 color="primary"
                 size="large"
                 fullWidth={isMd ? false : true}
-                href={'https://surfapp.vercel.app/dashboards/analytics/'}
+                href={'https://surfapp.vercel.app/dashboards/home/'}
               >
-                Register Now
+                Get Started
               </Button>
               <Box
                 marginTop={{ xs: 2, sm: 0 }}
@@ -153,14 +153,14 @@ const Hero = () => {
               >
                 <Button
                   component={'a'}
-                  href={'https://thefront.maccarianagency.com/docs/introduction'}
+                  href={'https://surfapp.vercel.app/dashboards/home/'}
                   target={'blank'}
                   variant="outlined"
                   color="primary"
                   size="large"
                   fullWidth={isMd ? false : true}
                 >
-                  View Gallery
+                  Surf Shots
                 </Button>
               </Box>
             </Box>

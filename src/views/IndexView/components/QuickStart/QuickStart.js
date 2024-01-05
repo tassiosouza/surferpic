@@ -21,7 +21,7 @@ const QuickStart = () => {
               fontWeight: 700,
             }}
           >
-            Build tools and full documention
+            Find your self surfing
           </Typography>
           <Typography
             variant="h6"
@@ -30,12 +30,11 @@ const QuickStart = () => {
             sx={{ fontWeight: 400 }}
             align={'center'}
           >
-            Components, plugins, and build tools are all thoroughly documented
-            with live examples and markup for easier use and customization.
+            Your best moments registered by the best photographers from different point of views
           </Typography>
         </Box>
       </Box>
-      <Box
+      {/* <Box
         component={SyntaxHighlighter}
         language={'javascript'}
         style={vs2015}
@@ -58,7 +57,17 @@ const QuickStart = () => {
 
 // LiveReload started. Opening localhost:3000
         `}
-      </Box>
+      </Box> */}
+      <Box
+        component={'img'}
+        loading="lazy"
+        src={
+          '/assets/banner.jpg'          
+        }
+        height={1}
+        width={1}
+        sx={{borderRadius:'10px'}}
+      />
     </Box>
   );
 };

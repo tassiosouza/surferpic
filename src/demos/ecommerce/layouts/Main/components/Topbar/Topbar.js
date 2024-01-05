@@ -67,7 +67,7 @@ const Topbar = ({ handleMobileMenuClick, pages = [] }) => {
             href="https://mui.com/store/items/the-front-landing-page/"
             size="large"
           >
-            Buy now
+            Get Started
           </Button>
         </Box>
       </Box>

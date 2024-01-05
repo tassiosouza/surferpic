@@ -8,69 +8,27 @@ import Grid from '@mui/material/Grid';
 
 const mock = [
   {
-    title: 'Built for developers',
+    title: 'Built for surfers and artist with love',
     subtitle:
-      'theFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+      'Surfer App is made from surfers and photographers. Find the best moments surfing from different lens',
     icon: (
-      <svg
-        height={24}
-        width={24}
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-        />
-      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#377dff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
     ),
   },
   {
-    title: 'Designed to be modern',
+    title: 'California summer breeze',
     subtitle:
-      'Designed with the latest design trends in mind. theFront feels modern, minimal, and beautiful.',
+      'Summer 2024 is coming. Get ready to register the best surf moments',
     icon: (
-      <svg
-        height={24}
-        width={24}
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
-        />
-      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#377dff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
     ),
   },
   {
-    title: 'Documentation for everything',
+    title: 'Best professional photographers',
     subtitle:
-      'We\'ve written extensive documentation for components and tools, so you never have to reverse engineer anything.',
+      'We\'ve patterned with the best photographers in San Diego',
     icon: (
-      <svg
-        height={24}
-        width={24}
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-        />
-      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#377dff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(2 3)"><path d="M20 16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3l2-3h6l2 3h3a2 2 0 0 1 2 2v11z"/><circle cx="10" cy="10" r="4"/></g></svg>
     ),
   },
 ];
@@ -90,7 +48,7 @@ const Services = () => {
               fontWeight: 700,
             }}
           >
-            Build accessible React apps with speed
+            Find your self surfing and share your best surf moments
           </Typography>
           <Typography
             variant="h6"
@@ -99,8 +57,7 @@ const Services = () => {
             sx={{ fontWeight: 400 }}
             align={'center'}
           >
-            Build a beautiful, modern website with flexible, fully customizable,
-            atomic MUI components.
+            The best place to surf in most stunning shots from the beautiful San Diego beaches. 
           </Typography>
         </Box>
       </Box>
