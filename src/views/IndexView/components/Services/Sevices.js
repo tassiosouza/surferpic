@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { alpha, useTheme } from '@mui/material/styles';
