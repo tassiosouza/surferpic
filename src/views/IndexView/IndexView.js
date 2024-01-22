@@ -9,7 +9,7 @@ import {
   QuickStart,
   Services,
   Benefits,
-  Hero,
+  SurfSearch,
 } from './components';
 
 const IndexView = () => {
@@ -17,7 +17,8 @@ const IndexView = () => {
   return (
     <Box sx={{ overflowX: 'hidden' }}>
       <Main bgcolor={'background.paper'}>
-        <Hero />
+        {/* <Hero /> */}
+        <SurfSearch/>
         <Container>
           <Services />
         </Container>

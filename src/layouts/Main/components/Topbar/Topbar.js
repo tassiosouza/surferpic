@@ -37,7 +37,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
           component={'img'}
           src={
             mode === 'light' && !colorInvert
-              ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
+              ? 'https://surfshotsd.s3.amazonaws.com/20240122005852/surf-shoot.png'
               : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
           }
           height={1}
